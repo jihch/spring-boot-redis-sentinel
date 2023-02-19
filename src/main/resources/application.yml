@@ -1,0 +1,6 @@
+spring:
+  redis:
+    sentinel:
+      master: mymaster # Sentinel 集群名称
+      nodes: 127.0.0.1:5000,127.0.0.1:5001,127.0.0.1:5002 # Sentinel 节点列表
+    password: vn4sj5kbxdaG # Redis 认证密码
